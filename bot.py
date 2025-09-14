@@ -32,7 +32,6 @@ async def help(ctx: commands.Context):
     embed.add_field(name="-help", value="Show all commands.", inline=False)
     embed.add_field(name="-ping", value="Check the bot's latency.", inline=False)
     embed.add_field(name="-purge [amount]", value="Delete the last N messages.", inline=False)
-    embed.add_field(name="-joke", value="See a dad joke. (placeholder)", inline=False)
     embed.add_field(name="-ban [@member]", value="Ban a user.", inline=False)
     embed.add_field(name="-kick [@member]", value="Kick a user.", inline=False)
 
